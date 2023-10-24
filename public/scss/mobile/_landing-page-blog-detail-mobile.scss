@@ -1,0 +1,213 @@
+.new-blog-detail-main-div {
+  padding: mvw(61px) mvw(23px) mvw(50px) mvw(23px);
+}
+
+.new-blog-main-div__card1-content {
+  // padding: mvw(2px) mvw(10px) mvw(10px) mvw(10px);
+  padding: mvw(2px) mvw(3px) mvw(10px) mvw(3px);
+
+  .new-blog-title {
+    color: white;
+    -webkit-text-stroke-color: white;
+  }
+}
+
+.blog-detail-title-block__colm2,
+.blog-detail-title-block__colm2-category-tags-block {
+  .new-blog-technology-div {
+    @include fontMontserratBold;
+  }
+
+  .new-blog-technology-div:nth-child(3n + 1) {
+    color: #b499ff;
+    background: #f3efff;
+  }
+
+  .new-blog-technology-div:nth-child(3n + 2) {
+    color: #ff729d;
+    background: #ffe5ed;
+  }
+
+  .new-blog-technology-div:nth-child(3n + 3) {
+    color: #3882c9;
+    background: #cde9ff;
+  }
+}
+
+.blog-details-social-media-block {
+  text-align: center;
+  margin-bottom: mvw(80px);
+}
+
+.blog-details-social-media-block__twitter,
+.blog-details-social-media-block__facebook,
+.blog-details-social-media-block__copy {
+  width: mvw(40px);
+  height: mvw(40px);
+  line-height: mvw(40px);
+  border-radius: 100%;
+  border: none;
+  color: #ffffff;
+  background-color: transparent;
+  margin-bottom: mvw(8px);
+  padding: 0;
+}
+
+.blog-details-social-media-block__twitter {
+  margin-right: mvw(8px);
+  background-color: #3591e9;
+  font-size: mvw(20px);
+}
+
+.blog-details-social-media-block__facebook {
+  margin-right: mvw(8px);
+  background-color: #135695;
+  font-size: mvw(20px);
+}
+
+.blog-details-social-media-block__copy {
+  background-color: #f2adad;
+
+  img {
+    width: mvw(19px);
+    height: auto;
+  }
+}
+
+// new-blog-main-div__card1-content-desc content
+$blog-detail-desc-color-dark: #293f76;
+$blog-detail-desc-color-faint: rgba(7, 30, 87, 0.63);
+
+.new-blog-main-div__card1-content-desc {
+  // padding: mvw(23px) mvw(10px) mvw(12px) mvw(10px);
+  padding: mvw(23px) mvw(1px) mvw(12px) mvw(1px);
+  // color: #424242;
+  // @include fontNunitoRegular;
+  color: $blog-detail-desc-color-faint;
+  @include fontMontserratSemiBold;
+
+  strong {
+    // color: $blog-detail-desc-color-dark;
+    @include fontMontserratBold;
+    color: rgba(225, 225, 225, 0.8);
+  }
+
+  a {
+    // color: #000000;
+    color: $blog-detail-desc-color-dark;
+  }
+
+  .table {
+    // color: #424242;
+    color: $blog-detail-desc-color-faint;
+  }
+
+  table {
+    th,
+    td {
+      padding: mvw(10px);
+    }
+  }
+
+  .table {
+    width: 100%;
+    overflow: auto;
+  }
+
+  h1 {
+    font-size: mvw(17px);
+    line-height: mvw(22px);
+  }
+
+  h2 {
+    font-size: mvw(16px);
+    line-height: mvw(21px);
+  }
+
+  h3 {
+    font-size: mvw(15px);
+    line-height: mvw(20px);
+  }
+
+  h4 {
+    font-size: mvw(14px);
+    line-height: mvw(19px);
+  }
+
+  h5 {
+    font-size: mvw(13px);
+    line-height: mvw(18px);
+  }
+
+  h6 {
+    font-size: mvw(12px);
+    line-height: mvw(17px);
+  }
+
+  p,
+  li,
+  a,
+  table th,
+  table td {
+    // @include fontNunitoRegular;
+    // color: $blog-detail-desc-color-faint;
+    @include fontMontserratSemiBold;
+    letter-spacing: 0.001em;
+    font-size: mvw(11px);
+    line-height: mvw(16px);
+    color: rgba(225, 225, 225, 0.5);
+  }
+
+  table th {
+    color: $blog-detail-desc-color-dark;
+    // @include fontNunitoMedium;
+    @include fontMontserratSemiBold;
+  }
+
+  blockquote {
+    p {
+      // @include fontSemiBold;
+      @include fontMontserratBold;
+      font-size: mvw(21px);
+      line-height: mvw(26px);
+      font-style: italic;
+      margin-bottom: mvw(23px);
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    // color: $blog-detail-desc-color-dark;
+    // @include fontNunitoMedium;
+    @include fontMontserratBold;
+    margin-bottom: mvw(13px) !important;
+    color: rgba(225, 225, 225, 0.8);
+  }
+
+  p,
+  .table,
+  a {
+    margin-bottom: mvw(11px);
+  }
+
+  ul,
+  ol {
+    margin-bottom: mvw(21px);
+    padding-left: mvw(23px);
+
+    li {
+      margin-bottom: vw(10px);
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

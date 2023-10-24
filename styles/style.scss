@@ -1,0 +1,51 @@
+//-- common scss file --//
+@import "../public/scss/variables";
+@import "../public/scss/function";
+@import "../public/scss/mixins";
+@import "../public/scss/typography";
+@import "../public/scss/global";
+
+//-- desktop scss files --//
+@media screen and (min-width: 768px) {
+  @import "../public/scss/desktop/common";
+  @import "../public/scss/desktop/landingPageNavbar";
+  @import "../public/scss/desktop/landingPageTerms";
+  @import "../public/scss/desktop/landingPagePrivacy";
+  @import "../public/scss/desktop/landingPagePrice";
+  @import "../public/scss/desktop/landingPageFooter";
+  @import "../public/scss/desktop/landingPageEbook";
+  @import "../public/scss/desktop/landingPageLogin";
+  @import "../public/scss/desktop/landingPageFeatures";
+  @import "../public/scss/desktop/landingPageTutorials";
+  @import "../public/scss/desktop/landingPageHome";
+  @import "../public/scss/desktop/landingPagehelp";
+  @import "../public/scss/desktop/landingPageEmail";
+  @import "../public/scss/desktop/modal";
+  @import "../public/scss/desktop/custumInput";
+  @import "../public/scss/desktop/comparisionPipedrive";
+  @import "../public/scss/desktop/scroll";
+  @import "../public/scss/desktop/landingPageOuth";
+  @import "../public/scss/desktop/new-home";
+  @import "../public/scss/desktop/common-font";
+  @import "../public/scss/desktop/landing-page-blog-detail";
+  @import "../public/scss/desktop/landing-page-blog";
+  @import "../public/scss/desktop/custom-pagination";
+  @import "../public/scss/desktop/new-features";
+  @import "../public/scss/desktop/facebook-data-deletion-instruction";
+}
+
+@media screen and (max-width: 767px) {
+  @import "../public/scss/mobile/landingPageHomeCommon";
+  @import "../public/scss/mobile/landingPageHomeMobile";
+  @import "../public/scss/mobile/landingPageHomeNavbar";
+  @import "../public/scss/mobile/landingPageHomeMobileGet";
+  @import "../public/scss/mobile/landingPageHomeMobileFeatures";
+  @import "../public/scss/mobile/landingPageMobileComparison";
+  @import "../public/scss/mobile/landing-page-blog-mobile";
+  @import "../public/scss/mobile/landing-page-blog-detail-mobile";
+  @import "../public/scss/mobile/custom-pagination";
+
+  .customModal {
+    display: none !important;
+  }
+}

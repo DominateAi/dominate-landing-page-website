@@ -1,0 +1,66 @@
+.terms-section {
+  padding-bottom: vw(100px);
+}
+.terms-para-section {
+  padding-left: vw(284px);
+  padding-right: vw(320px);
+  padding-top: vw(101px);
+  li {
+    list-style: none;
+  }
+}
+.terms-para-text {
+  padding-bottom: vw(50px);
+  font-size: vw(30px);
+  line-height: vw(41px);
+  // letter-spacing: vw(3.6px);
+  // @include fontSemiBold;
+  @include fontNunitoMedium;
+  // opacity: 0.49;
+  // color: $dark-theme-color-gray-to-white-6;
+  color: $dark-theme-color-gray-5;
+}
+//.background-section--terms {
+//  background-image: url("../../img/desktop/terms/terms-back.svg");
+//  background-size: 100%;
+//  background-repeat: no-repeat;
+//  background-clip: padding-box;
+//}
+.terms-list {
+  ol {
+    list-style-type: none;
+  }
+}
+.terms-white-text {
+  color: $dark-theme-color-white;
+  @include fontSemiBold;
+}
+/*===================================================
+                      terms of services
+===================================================*/
+.terms-of-services-list {
+  padding-left: vw(60px);
+  padding-top: vw(30px);
+  li {
+    list-style: decimal;
+    padding-top: vw(30px);
+    font-size: vw(28px);
+    line-height: vw(35px);
+    @include fontNunitoMedium;
+    color: $dark-theme-color-gray-5;
+  }
+}
+.privacy-section-subtitle--terms-of-services {
+  padding-top: vw(100px) !important;
+}
+.terms-section--terms-of-services {
+  .terms-para-text {
+    font-size: vw(28px);
+    line-height: vw(35px);
+  }
+  .privacy-section-subtitle {
+    font-size: vw(35px) !important;
+    @include fontNunitoBold;
+    line-height: vw(46px);
+  }
+}

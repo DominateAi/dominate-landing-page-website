@@ -1,0 +1,94 @@
+.navbar-section {
+  padding: vw(25px) vw(30px) vw(14px) vw(30px);
+  border-bottom: vw(2px) solid rgba(229, 229, 229, 0.11);
+  width: 90%;
+  margin: 0 auto;
+
+  ul {
+    list-style-type: none;
+    li {
+      // padding-left: vw(10px);
+      // padding-right: vw(15px);
+      text-transform: capitalize;
+      padding: 0;
+      padding-right: vw(62px);
+    }
+  }
+}
+.nav-link {
+  // cursor: pointer;
+  // font-size: vw(24px);
+  // line-height: vw(29px);
+  //line-height: vw(2.27px);
+  //color: #9578b1;
+  //@include fontMontserratBold;
+  font-size: vw(18px);
+  line-height: vw(21px);
+  //new css
+  @include fontMontserratRegular;
+  color: $dark-theme-color-dark-blue-2-to-white-1;
+  padding: 0;
+}
+
+.nav-link--active {
+  //color: $dark-theme-color-dark-blue-to-white-79;
+  position: relative;
+  color: rgba(161, 142, 255, 0.79);
+  //new css
+  @include fontMontserratSemiBold;
+
+  &::after {
+    position: absolute;
+    content: "";
+    // background-image: url("../../img/desktop/navbar/nav.svg");
+    // background-repeat: no-repeat;
+    // background-clip: padding-box;
+    // background-size: contain;
+    // width: vw(100px);
+    width: 100%;
+    height: vw(6px);
+    // left: vw(13px);
+    // bottom: vw(-32px);
+    bottom: vw(-38px);
+    // bottom: vw(-24px);
+    left: 0;
+    background: linear-gradient(320deg, #502eff 2.74%, #d1c7ff 126.63%);
+    border-radius: 22%;
+  }
+}
+.navbar-logo {
+  //width: vw(216px);
+  height: auto;
+
+  //new css
+  width: vw(293px);
+}
+.email-send-btn--nav {
+  background-color: #453890 !important;
+}
+
+/*===========================
+        new css
+=========================*/
+.navbar-btn {
+  width: vw(213px);
+  height: vw(60px);
+  background: $dark-theme-bg-color-yellow-blue-1;
+  border-radius: vw(25px);
+  // font-size: vw(18px);
+  // line-height: vw(60px);
+  color: #ffffff;
+  // @include fontNunitoBold;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: vw(16px);
+  line-height: vw(56px);
+  // @include fontSemiBold;
+  @include fontNunitoMedium;
+}
+.navbar-btn--login {
+  width: vw(205px);
+  margin-left: vw(18px);
+  @include dark-theme-mixin-1;
+}

@@ -1,0 +1,40 @@
+.privacy-title-section {
+  padding-top: vw(100px);
+}
+.terms-para-section--privacy {
+  padding-bottom: vw(200px);
+}
+//.background-section--privacy {
+//  background-image: url("../../img/desktop/terms/back.svg");
+//  background-size: 100%;
+//  background-repeat: no-repeat;
+//  background-clip: padding-box;
+//}
+.terms-para-text--title {
+  // @include fontNunitoBold;
+  padding: 0;
+}
+.privacy-section-title {
+  color: $dark-theme-color-white;
+  font-size: vw(30px);
+  @include fontSemiBold;
+  line-height: vw(41px);
+  margin-bottom: 0;
+  padding-top: vw(50px);
+}
+.privacy-section-subtitle {
+  color: $dark-theme-color-white;
+  font-size: vw(30px);
+  @include fontNunitoRegular;
+  line-height: vw(41px);
+  margin-bottom: 0;
+  padding-top: vw(30px);
+}
+.privacy-para-text {
+  // padding-bottom: vw(50px);
+  font-size: vw(30px);
+  line-height: vw(41px);
+  @include fontNunitoMedium;
+  color: $dark-theme-color-gray-5;
+  margin-bottom: 0;
+}

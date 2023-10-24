@@ -1,0 +1,134 @@
+//.background-section--tutorials {
+//background-image: none;
+//background-image: url("../../img/desktop/tutorial/back.svg");
+//background-size: 100%;
+// background-repeat: no-repeat;
+// min-height: 100vh;
+//background-size: 95%;
+//}
+.tutorial-section {
+  padding-left: vw(50px);
+  // padding-bottom: vw(100px);
+  padding-bottom: vw(200px);
+}
+.tutorial-left-section {
+  width: vw(720px);
+  height: auto;
+  //height: vw(400px);
+  position: relative;
+  //background-color: #fbdfa9;
+  //border-radius: vw(40px);
+  //box-shadow: 0 0 vw(40px) #0000001a;
+
+  video {
+    outline: none;
+    border-radius: vw(40px);
+    height: auto;
+  }
+}
+.tutorial-right-section {
+  position: relative;
+  padding-left: vw(103px);
+  padding-top: vw(30px);
+}
+.tutorial-name-1 {
+  padding-top: vw(30px);
+}
+.tutorial-para-1 {
+  width: vw(766px);
+  height: auto;
+}
+.tutoria-no-1 {
+  top: vw(-100px);
+  left: vw(40px);
+}
+.tutorial-section1 {
+  padding-top: vw(152px);
+  // padding-bottom: vw(100px);
+}
+.tutorial-page-title {
+  padding-top: vw(150px);
+}
+// .tutorial-section2 {
+//   padding-top: vw(371px);
+// }
+.tutorial-name-2 {
+  padding-top: vw(70px) !important;
+  padding-bottom: vw(50px) !important;
+  width: vw(737px);
+  height: auto;
+}
+.tutorial-para-2 {
+  width: vw(800px);
+  height: auto;
+}
+// .tutorial-section3 {
+//   padding-top: vw(600px);
+// }
+.tutorial-name-3 {
+  padding-top: vw(100px);
+  padding-bottom: vw(50px);
+}
+.tutorial-para-3 {
+  width: vw(800px);
+  height: auto;
+}
+// .tutorial-section4 {
+//   padding-top: vw(517px);
+// }
+.tutorial-name-4 {
+  padding-top: vw(40px);
+  width: vw(650px);
+  height: auto;
+}
+.tutorial-para-4 {
+  width: vw(804px);
+  height: auto;
+}
+.tutorial-section5 {
+  // padding-top: vw(630px);
+  padding-bottom: vw(200px);
+}
+.tutorial-name-5 {
+  // padding-top: vw(130px);
+  padding-top: vw(80px);
+  width: vw(700px);
+  height: auto;
+}
+.tutorial-para-5 {
+  width: vw(786px);
+  height: auto;
+}
+.tutorial-no-5 {
+  top: 0;
+  left: vw(30px);
+}
+.tutorial-span-text {
+  font-size: vw(337px);
+  position: absolute;
+  color: $dark-theme-color-yellow-to-white-24;
+  opacity: 0.13;
+  line-height: vw(4px);
+  @include axisExtraBold;
+  top: vw(100px);
+  left: vw(50px);
+}
+.tutorial-title {
+  font-size: vw(54px);
+  line-height: vw(66px);
+  // letter-spacing: vw(1.73px);
+  // color: $dark-theme-color-dark-blue-to-white-79;
+  @include fontMontserratSemiBold;
+  padding-bottom: vw(40px);
+  z-index: 99;
+  color: $dark-theme-color-white;
+}
+.tutorial-para {
+  font-size: vw(30px);
+  line-height: vw(38px);
+  // letter-spacing: vw(3.6px);
+  // color: #9578b1;
+  color: $dark-theme-color-purple-to-white-6;
+  // @include fontNunitoBold;
+  @include fontNunitoMedium;
+}

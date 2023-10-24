@@ -1,0 +1,121 @@
+//.background-section--feature {
+//  //background-image: none;
+//  background-image: url("../../img/desktop/features/back.png");
+//  text-align: center;
+//  background-size: 100%;
+//  background-clip: padding-box;
+//  background-repeat: no-repeat;
+//}
+.features-page-title {
+  padding-top: vw(50px);
+}
+.feature-title {
+  //font-size: vw(71px);
+  font-size: vw(60px);
+  line-height: vw(87px);
+  color: $dark-theme-color-dark-blue-to-white-79;
+  // letter-spacing: vw(2.27px);
+  @include fontMontserratBlack;
+  margin-bottom: 0;
+}
+.features-section {
+  padding-top: vw(10px);
+}
+.feature1-img {
+  //width: vw(930px);
+  width: vw(790px);
+  height: auto;
+  margin-top: vw(20px);
+}
+.feature-para {
+  color: #9578b1;
+  //font-size: vw(38px);
+  font-size: vw(32px);
+  line-height: vw(51px);
+  @include fontNunitoBold;
+  text-align: center;
+}
+.feature-1-para {
+  padding-top: vw(50px);
+  width: vw(1400px);
+  height: auto;
+  padding-right: vw(120px);
+  padding-left: vw(480px);
+  padding-bottom: vw(50px);
+}
+.feature2-img {
+  //width: vw(977px);
+  width: vw(830px);
+  height: auto;
+  margin-top: vw(80px);
+}
+.feature-2-para {
+  padding-top: vw(50px);
+  padding-left: vw(50px);
+  padding-right: vw(100px);
+  //padding-bottom: vw(100px);
+  width: vw(1058px);
+  text-align: center;
+  height: auto;
+}
+.feature3-img {
+  //width: vw(1139px);
+  width: vw(968px);
+  height: auto;
+  margin-left: vw(100px);
+  margin-top: vw(70px);
+}
+.feature-3-para {
+  padding-top: vw(72px);
+  width: vw(900px);
+  height: auto;
+  //padding-right: vw(300px);
+  //padding-left: vw(300px);
+  padding-bottom: vw(100px);
+}
+.feature-3-name {
+  padding-top: vw(100px);
+  width: vw(960px);
+  height: auto;
+  //padding-right: vw(500px);
+}
+.feature4-img {
+  margin-top: vw(41px);
+  //width: vw(1103px);
+  width: vw(937px);
+  height: auto;
+}
+.feature-4-name {
+  padding-top: vw(20px);
+}
+.feature-4-para {
+  padding-top: vw(62px);
+  width: vw(1062px);
+  height: auto;
+  margin-left: vw(-100px) !important;
+  //padding-right: vw(500px);
+  padding-bottom: vw(100px);
+}
+.feature5-img {
+  //width: vw(1114px);
+  width: vw(946px);
+  height: auto;
+  margin-top: vw(45px);
+}
+.feature-5-para {
+  padding-top: vw(100px);
+  padding-left: vw(500px);
+  padding-right: vw(500px);
+  padding-bottom: vw(200px);
+}
+/////@extend
+.features-section-1 {
+  padding-top: vw(50px);
+}
+.features-2-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

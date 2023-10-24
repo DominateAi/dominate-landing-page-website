@@ -1,0 +1,49 @@
+.oauth-page-title {
+  padding-top: vw(170px);
+}
+.montserrat-38-font {
+  font-size: vw(38px);
+  line-height: vw(47px);
+  // letter-spacing: vw(1.22px);
+  // color: #9578b1;
+  @include fontMontserratSemiBold;
+  color: $dark-theme-color-blue-to-white-1;
+}
+.oauth-padding-div {
+  // padding-left: vw(156px);
+  // padding-right: vw(91px);
+  padding-top: vw(109px);
+  padding-left: vw(284px);
+  padding-right: vw(320px);
+}
+.pt-20 {
+  padding-top: vw(20px);
+}
+.font-24-nunito {
+  // color: #420082;
+  font-size: vw(24px);
+  line-height: vw(32px);
+  // letter-spacing: vw(2.88px);
+  @include fontNunitoMedium;
+  color: $dark-theme-color-dark-blue-to-white-6;
+}
+.pt-96 {
+  padding-top: vw(96px);
+}
+.pb-50 {
+  padding-bottom: vw(50px);
+}
+.oauth-span-text {
+  //text-decoration: underline;
+  padding-bottom: vw(2px);
+  color: #6e52ff;
+  border-bottom: vw(1px) solid #6e52ff;
+}
+.font-24-nunito--outh {
+  font-size: vw(30px);
+  line-height: vw(41px);
+}
+.montserrat-38-font--oauth {
+  font-size: vw(30px);
+  line-height: vw(41px);
+}

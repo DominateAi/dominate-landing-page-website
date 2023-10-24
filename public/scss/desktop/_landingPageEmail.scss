@@ -1,0 +1,188 @@
+.email-search-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: vw(100px);
+  padding-bottom: vw(100px);
+}
+.email_finder-title {
+  // font-size: vw(42px);
+  // line-height: vw(63px);
+  // color: #9578b1;
+  @include fontMontserratBold;
+  //padding: vw(100px) 0 vw(100px) vw(360px);
+  color: $dark-theme-color-purple-to-white-80;
+  font-size: vw(36px);
+  line-height: vw(36px);
+  margin-bottom: 0;
+}
+.email-search-outer-div {
+  width: vw(1316px);
+  height: auto;
+  margin-left: vw(302px);
+  padding-left: vw(78px);
+  padding-bottom: vw(49px);
+  padding-top: vw(56px);
+  //background-color: #fbdfa9;
+  // background: rgba(41, 64, 144, 0.1);
+  // box-shadow: 0 0 vw(40px) #0000001a;
+  // /  border-radius: vw(40px);
+}
+.domain-text {
+  font-size: vw(28px);
+  line-height: vw(38px);
+  color: $dark-theme-color-dark-blue-to-white-79;
+  @include fontSemiBold;
+  position: relative;
+  padding-left: vw(23px);
+  padding-bottom: vw(40px);
+  &::before {
+    position: absolute;
+    left: 0;
+    top: vw(10px);
+    content: "";
+    width: vw(10px);
+    height: vw(10px);
+    border-radius: 50%;
+    background-color: rgba(63, 89, 184, 0.55);
+  }
+}
+.email-finder-input {
+  width: vw(1040px);
+  // height: vw(100px);
+  height: vw(84px);
+  // border-radius: vw(53px);
+  //background-color: rgba(255, 230, 206, 1);
+  // background-color: rgba(63, 89, 184, 0.23);
+  border: none;
+  padding-left: vw(48px);
+  // color: rgba(63, 89, 184, 0.58);
+  // font-size: vw(30px);
+  font-size: vw(18px);
+  line-height: vw(41px);
+  @include fontSemiBold;
+  @include dark-theme-mixin-1;
+
+  &::placeholder {
+    // color: rgba(63, 89, 184, 0.58);
+    color: $dark-theme-color-white-79;
+  }
+}
+.email-finder-search-btn {
+  margin-left: vw(15px);
+  width: vw(281px);
+  height: vw(84px);
+  background-color: $dark-theme-bg-color-blue-1;
+  margin-left: vw(15px);
+  color: white;
+  border-radius: vw(18px);
+  @include fontNunitoMedium;
+}
+.show-content-main-div {
+  @include dark-theme-mixin-1;
+  padding: vw(48px) vw(78px) vw(48px) vw(56px);
+  margin-top: vw(46px);
+}
+.show-content-div {
+  // padding-top: vw(49px);
+  // padding-right: vw(237px);
+  padding-bottom: vw(20px);
+  // position: relative;
+
+  // &::after {
+  //   position: absolute;
+  //   content: "";
+  //   width: vw(1180px);
+  //   height: vw(1px);
+  //   background-color: rgba(177, 162, 254, 1);
+  //   left: vw(-30px);
+  //   bottom: 0;
+  // }
+
+  border-bottom: vw(2px) solid $dark-theme-border-color-2;
+}
+.show-content-left-text {
+  font-size: vw(24px);
+  line-height: vw(30px);
+  @include fontNunitoSemiBoldItalic;
+  // color: rgba(84, 52, 159, 0.58);
+  color: $dark-theme-color-purple-to-white;
+  padding-right: vw(245px);
+}
+.show-content-result-div {
+  width: 100%;
+  margin-top: vw(20px);
+  margin-right: vw(76px);
+  // padding-right: vw(162px);
+  overflow: auto;
+  height: vw(210px);
+  color: $dark-theme-color-purple-to-gray-4;
+  word-break: break-all;
+}
+.show-result-left-text {
+  font-size: vw(18px);
+  line-height: vw(31px);
+  // color: rgba(149, 120, 177, 0.96);
+  @include fontPoppinsMedium;
+  text-transform: capitalize;
+  text-decoration: underline;
+  width: 70%;
+}
+.show-result-link {
+  // font-size: vw(24px);
+  // line-height: vw(35px);
+  font-size: vw(18px);
+  line-height: vw(31px);
+  @include fontPoppinsMedium;
+  // color: rgba(149, 120, 177, 1);
+  text-transform: capitalize;
+  text-decoration: underline;
+  width: 30%;
+}
+.show-content-result-inner-div {
+  padding-bottom: vw(40px);
+  width: 100%;
+}
+.email-array-outer-div {
+  margin-left: vw(302px);
+  padding-top: vw(70px);
+  padding-right: vw(300px);
+}
+.email-array-img {
+  width: vw(460px);
+  height: vw(400px);
+  border-radius: vw(12px);
+}
+.email-array-inner-div {
+  padding-bottom: vw(50px);
+}
+.email-array-name {
+  // font-size: vw(30px);
+  // line-height: vw(37px);
+  // letter-spacing: vw(3.6px);
+  // color: #9578b1;
+  @include fontMontserratBold;
+  color: $dark-theme-color-purple-to-white;
+  font-size: vw(36px);
+  line-height: vw(44px);
+}
+.email-array-para {
+  // font-size: vw(30px);
+  // line-height: vw(35px);
+  // letter-spacing: vw(0.9px);
+  // @include fontSemiBold;
+  // color: rgba(38, 38, 38, 0.54);
+  width: vw(733px);
+  height: auto;
+  padding-top: vw(23px);
+  color: $dark-theme-color-purple-to-gray-3;
+  font-size: vw(18px);
+  line-height: vw(32px);
+  margin-bottom: 0;
+  @include fontNunitoMedium;
+}
+.email-array-name-div {
+  padding-top: vw(60px);
+  padding-left: vw(70px);
+}

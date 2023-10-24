@@ -1,0 +1,525 @@
+// extra light
+$font-Nunito-to-Inter_ExtraLight: "Inter-ExtraLight";
+$font-weight-Nunito-to-Inter_ExtraLight: 200;
+
+// light
+$font-Nunito-to-Inter_Light: "Inter-Light";
+$font-weight-Nunito-to-Inter_Light: 300;
+
+// regular
+$font-Nunito-to-Inter_Regular: "Inter-Regular";
+$font-weight-Nunito-to-Inter_Regular: 400;
+
+// medium
+$font-Nunito-to-Inter_Medium: "Inter-Medium";
+$font-weight-Nunito-to-Inter_Medium: 500;
+
+// semi bold
+$font-Nunito-to-Inter_SemiBold: "Inter-SemiBold";
+$font-weight-Nunito-to-Inter_SemiBold: 600;
+// $font-Poppins-to-Inter_SemiBold: "Inter-Medium";
+// $font-weight-Poppins-to-Inter_SemiBold: 500;
+
+// bold
+$font-Nunito-to-Inter_Bold: "Inter-Bold";
+$font-weight-Nunito-to-Inter_Bold: 700;
+// $font-Poppins-to-Inter_Bold: "Inter-Medium";
+// $font-weight-Poppins-to-Inter_Bold: 500;
+
+// extra bold
+$font-Nunito-to-Inter_ExtraBold: "Inter-ExtraBold";
+$font-weight-Nunito-to-Inter_ExtraBold: 800;
+
+// black
+$font-Nunito-to-Inter_Black: "Inter-Black";
+$font-weight-Nunito-to-Inter_Black: 900;
+
+$font-fallback-1: sans-serif;
+$font-fallback-2: "Helvetica";
+
+//-- mixin scss --//
+// -- axis --//
+// bold
+$font-axis-to-Inter_Bold: "Inter-Bold";
+$font-weight-axis-to-Inter_Bold: 700;
+
+@mixin axisExtraBold {
+  // font-family: AXIS, sans-serif, "Helvetica";
+  // font-weight: 800;
+  font-family: $font-axis-to-Inter_Bold, $font-fallback-1, $font-fallback-2;
+  font-weight: $font-weight-axis-to-Inter_Bold;
+}
+
+//-- Nunito --//
+@mixin fontNunitoLight {
+  // font-family: Nunito-Light, sans-serif, "Helvetica";
+  // font-weight: 200;
+  font-family: $font-Nunito-to-Inter_ExtraLight, $font-fallback-1,
+    $font-fallback-2;
+  font-weight: $font-weight-Nunito-to-Inter_ExtraLight;
+}
+@mixin fontNunitoRegular {
+  // font-family: Nunito-Regular, sans-serif, "Helvetica";
+  // font-weight: 400;
+  font-family: $font-Nunito-to-Inter_Regular, $font-fallback-1, $font-fallback-2;
+  font-weight: $font-weight-Nunito-to-Inter_Regular;
+}
+@mixin fontNunitoMedium {
+  // font-family: Nunito-Medium, sans-serif, "Helvetica";
+  // font-weight: 500;
+  font-family: $font-Nunito-to-Inter_Medium, $font-fallback-1, $font-fallback-2;
+  font-weight: $font-weight-Nunito-to-Inter_Medium;
+}
+@mixin fontNunito-light-to-Medium {
+  // font-family: Nunito-Medium, sans-serif, "Helvetica";
+  // font-weight: 500;
+  font-family: $font-Nunito-to-Inter_Medium, $font-fallback-1, $font-fallback-2;
+  font-weight: $font-weight-Nunito-to-Inter_Medium;
+}
+@mixin fontSemiBold {
+  // font-family: Nunito-SemiBold, sans-serif, "Helvetica";
+  // font-weight: 600;
+  font-family: $font-Nunito-to-Inter_SemiBold, $font-fallback-1,
+    $font-fallback-2;
+  font-weight: $font-weight-Nunito-to-Inter_SemiBold;
+}
+
+@mixin fontNunitoSemiBoldItalic {
+  // font-family: Nunito-SemiBoldItalic, sans-serif, "Helvetica";
+  // font-weight: 600;
+  font-family: $font-Nunito-to-Inter_SemiBold, $font-fallback-1,
+    $font-fallback-2;
+  font-weight: $font-weight-Nunito-to-Inter_SemiBold;
+}
+
+@mixin fontNunitoBold {
+  // font-family: Nunito-Bold, sans-serif, "Helvetica";
+  // font-weight: 700;
+  font-family: $font-Nunito-to-Inter_Bold, $font-fallback-1, $font-fallback-2;
+  font-weight: $font-weight-Nunito-to-Inter_Bold;
+}
+
+@mixin fontNunitoExtraBold {
+  // font-family: Nunito-ExtraBold, sans-serif, "Helvetica";
+  // font-weight: 900;
+  font-family: $font-Nunito-to-Inter_ExtraBold, $font-fallback-1,
+    $font-fallback-2;
+  font-weight: $font-weight-Nunito-to-Inter_ExtraBold;
+}
+
+// extra light
+$font-Montserrat-to-Inter_ExtraLight: "Inter-ExtraLight";
+$font-weight-Montserrat-to-Inter_ExtraLight: 200;
+
+// light
+$font-Montserrat-to-Inter_Light: "Inter-Light";
+$font-weight-Montserrat-to-Inter_Light: 300;
+
+// regular
+$font-Montserrat-to-Inter_Regular: "Inter-Regular";
+$font-weight-Montserrat-to-Inter_Regular: 400;
+
+// medium
+$font-Montserrat-to-Inter_Medium: "Inter-Medium";
+$font-weight-Montserrat-to-Inter_Medium: 500;
+
+// semi bold
+$font-Montserrat-to-Inter_SemiBold: "Inter-SemiBold";
+$font-weight-Montserrat-to-Inter_SemiBold: 600;
+
+// bold
+$font-Montserrat-to-Inter_Bold: "Inter-Bold";
+$font-weight-Montserrat-to-Inter_Bold: 700;
+
+// extra bold
+$font-Montserrat-to-Inter_ExtraBold: "Inter-ExtraBold";
+$font-weight-Montserrat-to-Inter_ExtraBold: 800;
+
+// black
+$font-Montserrat-to-Inter_Black: "Inter-Black";
+$font-weight-Montserrat-to-Inter_Black: 900;
+
+//-- Montserrat --//
+@mixin fontMontserratLight {
+  // font-family: Montserrat-Light, sans-serif, "Helvetica";
+  // font-weight: 200;
+  font-family: $font-Montserrat-to-Inter_ExtraLight, $font-fallback-1,
+    $font-fallback-2;
+  font-weight: $font-weight-Montserrat-to-Inter_ExtraLight;
+}
+
+@mixin fontMontserratRegular {
+  // font-family: Montserrat-Regular, sans-serif, "Helvetica";
+  // font-weight: 400;
+  font-family: $font-Montserrat-to-Inter_Regular, $font-fallback-1,
+    $font-fallback-2;
+  font-weight: $font-weight-Montserrat-to-Inter_Regular;
+}
+
+@mixin fontMontserratMedium {
+  // font-family: Montserrat-Medium, sans-serif, "Helvetica";
+  // font-weight: 500;
+  font-family: $font-Montserrat-to-Inter_Medium, $font-fallback-1,
+    $font-fallback-2;
+  font-weight: $font-weight-Montserrat-to-Inter_Medium;
+}
+
+@mixin fontMontserratMediumItalic {
+  // font-family: Montserrat-MediumItalic, sans-serif, "Helvetica";
+  // font-weight: 500;
+  font-family: $font-Montserrat-to-Inter_Medium, $font-fallback-1,
+    $font-fallback-2;
+  font-weight: $font-weight-Montserrat-to-Inter_Medium;
+}
+
+@mixin fontMontserratSemiBold {
+  // font-family: Montserrat-SemiBold, sans-serif, "Helvetica";
+  // font-weight: 600;
+  font-family: $font-Montserrat-to-Inter_SemiBold, $font-fallback-1,
+    $font-fallback-2;
+  font-weight: $font-weight-Montserrat-to-Inter_SemiBold;
+}
+
+@mixin fontMontserratSemiBoldImportant {
+  font-family: $font-Montserrat-to-Inter_SemiBold, $font-fallback-1,
+    $font-fallback-2 !important;
+  font-weight: $font-weight-Montserrat-to-Inter_SemiBold !important;
+}
+
+@mixin fontMontserratBold {
+  // font-family: Montserrat-Bold, sans-serif, "Helvetica";
+  // font-weight: 700;
+  font-family: $font-Montserrat-to-Inter_Bold, $font-fallback-1,
+    $font-fallback-2;
+  font-weight: $font-weight-Montserrat-to-Inter_Bold;
+}
+
+@mixin fontMontserratExtraBold {
+  // font-family: Montserrat-ExtraBold, sans-serif, "Helvetica";
+  // font-weight: 800;
+  font-family: $font-Montserrat-to-Inter_ExtraBold, $font-fallback-1,
+    $font-fallback-2;
+  font-weight: $font-weight-Montserrat-to-Inter_ExtraBold;
+}
+
+@mixin fontMontserratBlack {
+  // font-family: Montserrat-Black, sans-serif, "Helvetica";
+  // font-weight: 900;
+  font-family: $font-Montserrat-to-Inter_Black, $font-fallback-1,
+    $font-fallback-2;
+  font-weight: $font-weight-Montserrat-to-Inter_Black;
+}
+
+// extra light
+$font-Poppins-to-Inter_ExtraLight: "Inter-ExtraLight";
+$font-weight-Poppins-to-Inter_ExtraLight: 200;
+
+// light
+$font-Poppins-to-Inter_Light: "Inter-Light";
+$font-weight-Poppins-to-Inter_Light: 300;
+
+// regular
+$font-Poppins-to-Inter_Regular: "Inter-Regular";
+$font-weight-Poppins-to-Inter_Regular: 400;
+
+// medium
+$font-Poppins-to-Inter_Medium: "Inter-Medium";
+$font-weight-Poppins-to-Inter_Medium: 500;
+
+// semi bold
+// $font-Poppins-to-Inter_SemiBold: "Inter-SemiBold";
+// $font-weight-Poppins-to-Inter_SemiBold: 600;
+$font-Poppins-to-Inter_SemiBold: "Inter-Medium";
+$font-weight-Poppins-to-Inter_SemiBold: 500;
+
+// bold
+// $font-Poppins-to-Inter_Bold: "Inter-Bold";
+// $font-weight-Poppins-to-Inter_Bold: 700;
+$font-Poppins-to-Inter_Bold: "Inter-Medium";
+$font-weight-Poppins-to-Inter_Bold: 500;
+
+// extra bold
+$font-Poppins-to-Inter_ExtraBold: "Inter-ExtraBold";
+$font-weight-Poppins-to-Inter_ExtraBold: 800;
+
+// black
+$font-Poppins-to-Inter_Black: "Inter-Black";
+$font-weight-Poppins-to-Inter_Black: 900;
+
+//-- Poppins --//
+@mixin fontPoppinsLight {
+  // font-family: Poppins-Light, sans-serif, "Helvetica";
+  // font-weight: 200;
+  font-weight: $font-weight-Poppins-to-Inter_Light;
+  font-family: $font-Poppins-to-Inter_Light, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontPoppinsRegular {
+  // font-family: Poppins-Regular, sans-serif, "Helvetica";
+  // font-weight: 100;
+  font-weight: $font-weight-Poppins-to-Inter_Regular;
+  font-family: $font-Poppins-to-Inter_Regular, $font-fallback-1,
+    $font-fallback-2;
+}
+
+@mixin fontPoppinsMedium {
+  // font-family: Poppins-Medium, sans-serif, "Helvetica";
+  // font-weight: 500;
+  font-weight: $font-weight-Poppins-to-Inter_Medium;
+  font-family: $font-Poppins-to-Inter_Medium, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontPoppinsSemiBold {
+  // font-family: Poppins-SemiBold, sans-serif, "Helvetica";
+  // font-weight: 600;
+  font-weight: $font-weight-Poppins-to-Inter_SemiBold;
+  font-family: $font-Poppins-to-Inter_SemiBold, $font-fallback-1,
+    $font-fallback-2;
+}
+@mixin fontPoppinsBold {
+  // font-weight: 700;
+  // font-family: Poppins-Bold, sans-serif, "Helvetica";
+  font-weight: $font-weight-Poppins-to-Inter_Bold;
+  font-family: $font-Poppins-to-Inter_Bold, $font-fallback-1, $font-fallback-2;
+}
+@mixin fontPoppinsBoldItalic {
+  // font-family: Poppins-BoldItalic, sans-serif, "Helvetica";
+  // font-weight: 600;
+  font-weight: $font-weight-Poppins-to-Inter_Bold;
+  font-family: $font-Poppins-to-Inter_Bold, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontPoppinsExtraBold {
+  // font-family: Poppins-ExtraBold, sans-serif, "Helvetica";
+  // font-weight: 800;
+  font-weight: $font-weight-Poppins-to-Inter_ExtraBold;
+  font-family: $font-Poppins-to-Inter_ExtraBold, $font-fallback-1,
+    $font-fallback-2;
+}
+
+//-- Graphie --//
+// extra light
+$font-Graphie-to-Inter_ExtraLight: "Inter-ExtraLight";
+$font-weight-Graphie-to-Inter_ExtraLight: 200;
+
+// light
+$font-Graphie-to-Inter_Light: "Inter-Light";
+$font-weight-Graphie-to-Inter_Light: 300;
+
+// regular
+$font-Graphie-to-Inter_Regular: "Inter-Regular";
+$font-weight-Graphie-to-Inter_Regular: 400;
+
+// medium
+$font-Graphie-to-Inter_Medium: "Inter-Medium";
+$font-weight-Graphie-to-Inter_Medium: 500;
+
+// semi bold
+$font-Graphie-to-Inter_SemiBold: "Inter-SemiBold";
+$font-weight-Graphie-to-Inter_SemiBold: 600;
+
+// bold
+$font-Graphie-to-Inter_Bold: "Inter-Bold";
+$font-weight-Graphie-to-Inter_Bold: 700;
+
+// extra bold
+$font-Graphie-to-Inter_ExtraBold: "Inter-ExtraBold";
+$font-weight-Graphie-to-Inter_ExtraBold: 800;
+
+// black
+$font-Graphie-to-Inter_Black: "Inter-Black";
+$font-weight-Graphie-to-Inter_Black: 900;
+
+@mixin fontGraphieExtraLightItalic {
+  // font-family: Graphie-ExtraLightItalic, sans-serif, "Helvetica";
+  font-weight: $font-weight-Graphie-to-Inter_ExtraLight;
+  font-family: $font-Graphie-to-Inter_ExtraLight, $font-fallback-1,
+    $font-fallback-2;
+}
+
+@mixin fontGraphieRegular {
+  // font-family: Graphie-Regular, sans-serif, "Helvetica";
+  // font-weight: 100;
+  font-weight: $font-weight-Graphie-to-Inter_ExtraLight;
+  font-family: $font-Graphie-to-Inter_ExtraLight, $font-fallback-1,
+    $font-fallback-2;
+}
+
+@mixin fontGraphieSemiBold {
+  // font-family: Graphie-SemiBold, sans-serif, "Helvetica";
+  // font-weight: 600;
+  font-weight: $font-weight-Graphie-to-Inter_SemiBold;
+  font-family: $font-Graphie-to-Inter_SemiBold, $font-fallback-1,
+    $font-fallback-2;
+}
+
+@mixin fontGraphieBold {
+  // font-family: Graphie-Bold, sans-serif, "Helvetica";
+  // font-weight: 700;
+  font-weight: $font-weight-Graphie-to-Inter_Bold;
+  font-family: $font-Graphie-to-Inter_Bold, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontGraphieExtraBold {
+  // font-family: Graphie-ExtraBold, sans-serif, "Helvetica";
+  // font-weight: 800;
+  font-weight: $font-weight-Graphie-to-Inter_ExtraBold;
+  font-family: $font-Graphie-to-Inter_ExtraBold, $font-fallback-1,
+    $font-fallback-2;
+}
+
+@mixin fontGraphieExtraBoldItalic {
+  // font-family: Graphie-ExtraBoldItalic, sans-serif, "Helvetica";
+  // font-weight: 800;
+  font-weight: $font-weight-Graphie-to-Inter_ExtraBold;
+  font-family: $font-Graphie-to-Inter_ExtraBold, $font-fallback-1,
+    $font-fallback-2;
+}
+
+//-- Kollektif --//
+// extra light
+$font-Kollektif-to-Inter_ExtraLight: "Inter-ExtraLight";
+$font-weight-Kollektif-to-Inter_ExtraLight: 200;
+
+@mixin fontKollektif {
+  // font-weight: 100;
+  // font-family: Kollektif, sans-serif, "Helvetica";
+  font-weight: $font-weight-Kollektif-to-Inter_ExtraLight;
+  font-family: $font-Kollektif-to-Inter_ExtraLight, $font-fallback-1,
+    $font-fallback-2;
+}
+//--Mulish--//
+@mixin fontMulishRegular {
+  font-weight: 400;
+  font-family: Mulish-Regular, sans-serif, "Helvetica";
+}
+@mixin fontMulishBold {
+  font-weight: 700;
+  font-family: Mulish-Bold, sans-serif, "Helvetica";
+}
+@mixin font-Nunito-to-Mulish-Bold {
+  font-weight: 700;
+  font-family: Mulish-Bold, sans-serif, "Helvetica";
+}
+
+//-- AsapCondensed --//
+
+// medium
+$font-AsapCondensed-to-Inter_Medium: "Inter-SemiBold";
+$font-weight-AsapCondensed-to-Inter_Medium: 600;
+
+@mixin fontAsapCondensedMedium {
+  // font-weight: 500;
+  // font-family: AsapCondensed-Medium, sans-serif, "Helvetica";
+  font-weight: $font-weight-AsapCondensed-to-Inter_Medium;
+  font-family: $font-AsapCondensed-to-Inter_Medium, $font-fallback-1,
+    $font-fallback-2;
+}
+
+//--  recoleta  --//
+
+// regular
+$font-Recoleta-to-Inter_Regular: "Inter-Regular";
+$font-weight-Recoleta-to-Inter_Regular: 400;
+
+@mixin fontRecoleta {
+  // font-weight: 400;
+  // font-family: recoleta-regulardemo, sans-serif, "Helvetica";
+  font-weight: $font-weight-Recoleta-to-Inter_Regular;
+  font-family: $font-Recoleta-to-Inter_Regular, $font-fallback-1,
+    $font-fallback-2;
+}
+
+//--  NimbusSanL  --//
+// regular
+$font-NimbusSanL-to-Inter_Regular: "Inter-Regular";
+$font-weight-NimbusSanL-to-Inter_Regular: 400;
+
+// bold
+$font-NimbusSanL-to-Inter_Bold: "Inter-Bold";
+$font-weight-NimbusSanL-to-Inter_Bold: 700;
+
+@mixin fontNimbusSanLReg {
+  // font-weight: 400;
+  // font-family: NimbusSanL-Reg, sans-serif, "Helvetica";
+
+  font-weight: $font-weight-NimbusSanL-to-Inter_Regular;
+  font-family: $font-NimbusSanL-to-Inter_Regular, $font-fallback-1,
+    $font-fallback-2;
+}
+
+@mixin fontNimbusSanLBold {
+  // font-weight: 700;
+  // font-family: NimbusSanL-Bol, sans-serif, "Helvetica";
+  font-weight: $font-weight-NimbusSanL-to-Inter_Bold;
+  font-family: $font-NimbusSanL-to-Inter_Bold, $font-fallback-1,
+    $font-fallback-2;
+}
+
+//--  LibreBaskerville  --//
+// bold
+$font-LibreBaskerville-to-Inter_Bold: "Inter-Bold";
+$font-weight-LibreBaskerville-to-Inter_Bold: 700;
+
+@mixin fontLibreBaskervilleBold {
+  // font-weight: 700;
+  // font-family: LibreBaskerville-Bold, sans-serif, "Helvetica";
+  font-weight: $font-weight-LibreBaskerville-to-Inter_Bold;
+  font-family: $font-LibreBaskerville-to-Inter_Bold, $font-fallback-1,
+    $font-fallback-2;
+}
+/*===========================================================
+                 bg,color,radius
+==========================================================*/
+// @mixin dark-ui-blck-bg-with-radius {
+//   color: #ffffff;
+//   background: rgba(255, 255, 255, 0.03);
+//   border: vw(2px) solid rgba(229, 229, 229, 0.19);
+//   border-radius: vw(25px);
+// }
+// theme mixin
+@mixin dark-theme-mixin-1 {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.03);
+  border: vw(2px) solid rgba(229, 229, 229, 0.19);
+  border-radius: vw(25px);
+}
+@mixin dark-theme-mixin-2 {
+  color: #ffffff;
+  background: rgba(161, 142, 255, 0.22);
+  border: vw(2px) solid #a18eff;
+  border-radius: vw(25px);
+}
+
+/*===========================================================
+                 color
+==========================================================*/
+@mixin dark-ui-blue-color {
+  background: rgb(161, 142, 255);
+  background: linear-gradient(
+    97deg,
+    rgba(161, 142, 255, 1) 44%,
+    rgba(111, 90, 220, 1) 126%
+  );
+}
+
+@mixin dark-theme-mixin-2-important {
+  background: rgba(255, 255, 255, 0.03) !important;
+  backdrop-filter: blur(392px);
+}
+/*=====================================================
+                             mobile
+======================================================*/
+@mixin dark-theme-mixin-1--mobile {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.03);
+  border: mvw(2px) solid rgba(229, 229, 229, 0.19);
+  border-radius: mvw(15px);
+}
+
+@mixin dark-theme-mixin-2--mobile {
+  color: #ffffff;
+  background: rgba(161, 142, 255, 0.22);
+  border: mvw(2px) solid #a18eff;
+  border-radius: mvw(25px);
+}

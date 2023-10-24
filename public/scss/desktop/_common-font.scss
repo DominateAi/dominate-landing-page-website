@@ -1,0 +1,61 @@
+.font-24-nunito-light {
+  // font-size: vw(24px);
+  font-size: vw(18px);
+  line-height: vw(35px);
+  // @include fontNunitoLight;
+  margin-bottom: 0;
+  @include fontNunito-light-to-Medium;
+}
+.font-24-nunito-bold {
+  font-size: vw(24px);
+  line-height: vw(35px);
+  // @include fontNunitoBold;
+  margin-bottom: 0;
+  @include font-Nunito-to-Mulish-Bold;
+}
+.font-48-poppins-extrabold {
+  font-size: vw(48px);
+  //line-height: vw(72px);
+  line-height: vw(61.2px);
+  margin-bottom: 0;
+  @include fontPoppinsExtraBold;
+}
+.font-64-poppins-extrabold {
+  font-size: vw(64px);
+  //line-height: vw(72px);
+  line-height: vw(83px);
+  margin-bottom: 0;
+  @include fontPoppinsExtraBold;
+}
+.font-18-montserrat-medium {
+  font-size: vw(18px);
+  line-height: vw(26px);
+  margin-bottom: 0;
+  @include fontMontserratMedium;
+}
+
+.font-24-montserrat-medium {
+  font-size: vw(24px);
+  line-height: vw(34px);
+  margin-bottom: 0;
+  @include fontMontserratMedium;
+}
+.font-24-montserrat-semiBold {
+  font-size: vw(24px);
+  line-height: vw(34px);
+  margin-bottom: 0;
+  @include fontMontserratSemiBold;
+}
+.font-53-montserrat-extrabold {
+  font-size: vw(53px);
+  line-height: vw(63px);
+  margin-bottom: 0;
+  @include fontMontserratExtraBold;
+}
+
+.font-72-montserrat-extrabold {
+  font-size: vw(72px);
+  line-height: vw(88px);
+  margin-bottom: 0;
+  @include fontMontserratExtraBold;
+}

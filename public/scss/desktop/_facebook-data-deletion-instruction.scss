@@ -1,0 +1,28 @@
+.facebook-data-deletion-main-div {
+  padding-top: vw(162px);
+}
+.facebook-data-deletion-content-div {
+  padding: vw(112px) vw(371px) vw(278px) vw(164px);
+}
+.facebook-data-deletion-para-text {
+  font-size: vw(24px);
+  line-height: vw(37px);
+  color: $dark-theme-color-white-1;
+  margin-bottom: 0;
+  @include fontMontserratSemiBold;
+}
+.facebook-data-deletion-sub-title-text {
+  padding-top: vw(47px);
+  font-size: vw(18px);
+  line-height: vw(22px);
+  margin-bottom: 0;
+  @include fontMontserratRegular;
+  color: $dark-theme-color-white-1;
+}
+.facebook-data-deletion-step-text {
+  font-size: vw(18px);
+  line-height: vw(32px);
+  color: $dark-theme-color-gray-5;
+  margin-bottom: 0;
+  padding-top: vw(35px);
+}

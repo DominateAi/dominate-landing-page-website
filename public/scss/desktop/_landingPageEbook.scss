@@ -1,0 +1,87 @@
+.background-section--ebook {
+  background-image: none;
+}
+.eBook-img-section {
+  width: vw(420px);
+  height: vw(595px);
+  @include dark-theme-mixin-1;
+  border: none;
+  border-radius: vw(18px);
+}
+.ebook-page-title {
+  padding-top: vw(165px);
+}
+.ebook-content-section {
+  // padding-left: vw(261px);
+  padding-top: vw(75px);
+  padding-bottom: vw(165px);
+  padding-left: vw(39px);
+}
+.eBook-outer-section {
+  width: vw(420px);
+  margin-right: vw(42px);
+}
+.ebook-img {
+  width: 100%;
+  height: 100%;
+}
+.ebook-text-section {
+  padding-top: vw(52px);
+  width: 100%;
+  height: auto;
+  // text-align: center;
+}
+.ebook-title {
+  // font-size: vw(44px);
+  // line-height: vw(54px);
+  // letter-spacing: vw(1.41px);
+  // color: #9578b1;
+  @include fontMontserratBold;
+  color: $dark-theme-color-purple-to-white;
+  font-size: vw(36px);
+  line-height: vw(44px);
+  margin-bottom: 0;
+}
+.ebook-author {
+  // font-size: vw(32px);
+  // line-height: vw(43px);
+  // @include fontSemiBold;
+  // color: #b1a2fe;
+  padding-top: vw(13px);
+  text-transform: capitalize;
+  color: $dark-theme-color-purple-to-white;
+  font-size: vw(18px);
+  line-height: vw(22px);
+  @include fontMontserratRegular;
+  margin-bottom: 0;
+}
+.ebook-para {
+  // font-size: vw(24px);
+  // line-height: vw(32px);
+  // color: #9578b1;
+  text-align: left;
+  // @include fontNunitoBold;
+  padding-top: vw(13px);
+  color: $dark-theme-color-purple-to-gray-3;
+  font-size: vw(18px);
+  line-height: vw(32px);
+  margin-bottom: 0;
+  @include fontNunitoMedium;
+}
+
+.email-send-btn--ebook {
+  // width: vw(366px);
+  // height: vw(82px);
+  margin: auto;
+  margin-top: vw(36px);
+  // border-radius: vw(3px);
+  // letter-spacing: vw(0.8px);
+  // line-height: vw(30px);
+  // font-size: vw(25px);
+  @include dark-theme-mixin-2;
+  width: vw(205px);
+  height: vw(65px);
+  font-size: vw(16px);
+  line-height: vw(61px);
+  padding: 0;
+}

@@ -1,0 +1,243 @@
+//-- typography scss --//
+//-- axis --//
+@font-face {
+  font-family: AXIS;
+  src: url("../fonts/AXIS-Extra-Bold-800.otf");
+}
+
+//-- nunito --//
+
+@font-face {
+  font-family: Nunito-Light;
+  src: url("../fonts/Nunito/Nunito-Light.ttf");
+}
+@font-face {
+  font-family: Nunito-Regular;
+  src: url("../fonts/Nunito/Nunito-Regular.ttf");
+}
+@font-face {
+  font-family: Nunito-Medium;
+  src: url("../fonts/Nunito/Nunito-Medium.ttf");
+}
+
+@font-face {
+  font-family: Nunito-SemiBold;
+  src: url("../fonts/Nunito/Nunito-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Nunito-SemiBoldItalic;
+  src: url("../fonts/Nunito/Nunito-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: Nunito-Bold;
+  src: url("../fonts/Nunito/Nunito-Bold.ttf");
+}
+
+@font-face {
+  font-family: Nunito-ExtraBold;
+  src: url("../fonts/Nunito/Nunito-ExtraBold.ttf");
+}
+
+//-- Montserrat --//
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url("../fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-MediumItalic;
+  src: url("../fonts/Montserrat/Montserrat-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url("../fonts/Montserrat/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+  font-family: Montserrat-Black;
+  src: url("../fonts/Montserrat/Montserrat-Black.ttf");
+}
+
+//-- Poppins --//
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("../fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: Poppins-BoldItalic;
+  src: url("../fonts/Poppins/Poppins-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: Poppins-ExtraBold;
+  src: url("../fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+//-- Graphie --//
+
+@font-face {
+  font-family: Graphie-ExtraLightItalic;
+  src: url("../fonts/Graphie/Graphie-ExtraLightItalic.otf");
+}
+
+@font-face {
+  font-family: Graphie-Regular;
+  src: url("../fonts/Graphie/Graphie-Regular.otf");
+}
+
+@font-face {
+  font-family: Graphie-SemiBold;
+  src: url("../fonts/Graphie/Graphie-SemiBold.otf");
+}
+
+@font-face {
+  src: url("../fonts/Graphie/Graphie-Bold.otf");
+  font-family: Graphie-Bold;
+}
+
+@font-face {
+  font-family: Graphie-ExtraBold;
+  src: url("../fonts/Graphie/Graphie-ExtraBold.otf");
+}
+
+@font-face {
+  font-family: Graphie-ExtraBoldItalic;
+  src: url("../fonts/Graphie/Graphie-ExtraBoldItalic.otf");
+}
+
+//-- Kollektif --/
+
+@font-face {
+  font-family: Kollektif;
+  src: url("../fonts/Kollektif.ttf");
+}
+//--- Mulish  --//
+@font-face {
+  font-family: Mulish-Regular;
+  src: url("../fonts/mulish/Mulish-Regular.ttf");
+}
+
+@font-face {
+  font-family: Mulish-Bold;
+  src: url("../fonts/mulish/Mulish-Bold.ttf");
+}
+
+//--  Asap Condensed --//
+@font-face {
+  font-family: AsapCondensed-Medium;
+  src: url("../fonts/asap_Condensed/AsapCondensed-Medium.ttf");
+}
+//--  recoleta  --//
+@font-face {
+  font-family: recoleta-regulardemo;
+  src: url("../fonts/recoleta/recoleta-regulardemo.otf");
+}
+
+//--  NimbusSanL  --//
+@font-face {
+  font-family: NimbusSanL-Bol;
+  src: url("../fonts/nimbus-sans-l/NimbusSanL-Bol.otf");
+}
+
+@font-face {
+  font-family: NimbusSanL-Reg;
+  src: url("../fonts/nimbus-sans-l/NimbusSanL-Reg.otf");
+}
+
+//--  LibreBaskerville  --//
+@font-face {
+  font-family: LibreBaskerville-Bold;
+  src: url("../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+
+/* ===============================================================
+                    
+                    Inter
+
+================================================================== */
+
+@font-face {
+  font-family: Inter-Thin;
+  src: url("../fonts/Inter/Inter-Thin.ttf");
+}
+
+@font-face {
+  font-family: Inter-Light;
+  src: url("../fonts/Inter/Inter-Light.ttf");
+}
+
+@font-face {
+  font-family: Inter-ExtraLight;
+  src: url("../fonts/Inter/Inter-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url("../fonts/Inter/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: Inter-Medium;
+  src: url("../fonts/Inter/Inter-Medium.ttf");
+}
+
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url("../fonts/Inter/Inter-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url("../fonts/Inter/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: Inter-Black;
+  src: url("../fonts/Inter/Inter-Black.ttf");
+}
+
+@font-face {
+  font-family: Inter-ExtraBold;
+  src: url("../fonts/Inter/Inter-ExtraBold.ttf");
+}

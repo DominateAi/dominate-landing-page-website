@@ -1,0 +1,106 @@
+// .customOverlay {
+// z-index: 9999 !important;
+// background-color: #ffe1c5 !important;
+// }
+
+.customModal {
+  //padding-bottom: vw(1000px) !important;
+  width: 100% !important;
+  overflow: hidden !important;
+  //background-color: #ffe1c5 !important;
+  // background-color: white !important;
+  // box-shadow: 0 vw(3px) vw(15px) rgba(0, 0, 0, 0.64);
+  border-radius: vw(24px);
+  background-repeat: no-repeat !important;
+  background-clip: padding-box !important;
+  background-size: 100% !important;
+  background-position: 50% !important;
+  background: $dark-theme-bg-color-modal !important;
+}
+
+.closeIconInModal {
+  cursor: pointer;
+
+  &::before,
+  &::after {
+    content: " ";
+    position: absolute !important;
+    top: vw(50px) !important;
+    right: vw(52px) !important;
+    background-color: transparent !important;
+    height: vw(22px) !important;
+    width: vw(22px) !important;
+    z-index: 99 !important;
+    // color: #420082;
+    // background-image: url("../../img/desktop/modal/close.svg");
+    background-image: url("../../img/desktop-dark-theme/icons/close-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+  }
+}
+.customCloseButton {
+  display: none !important;
+}
+.modal-title {
+  font-size: vw(38px);
+  line-height: vw(47px);
+  // letter-spacing: vw(1.22px);
+  // color: #9578b1;
+  color: $dark-theme-color-purple-to-white;
+  @include fontMontserratSemiBold;
+  text-align: center;
+}
+.customModal--ebook {
+  padding-left: vw(170px) !important;
+  padding-right: vw(179px) !important;
+  padding-top: vw(80px) !important;
+  padding-bottom: vw(50px) !important;
+  //background-image: url("../../img/desktop/modal/modal-back.svg") !important;
+  // background-image: url("../../img/desktop/new/new-bg.svg") !important;
+  background-size: contain;
+  background-position: top;
+  max-width: vw(1180px) !important;
+}
+.modal-btn {
+  width: vw(308px);
+  height: vw(84px);
+  // background: #420082;
+  // border-radius: vw(8px);
+  font-size: vw(21px);
+  line-height: vw(25px);
+  // letter-spacing: vw(0.67px);
+  @include fontMontserratSemiBold;
+  @include dark-theme-mixin-2;
+}
+.ebook-download-modal {
+  padding-top: vw(50px);
+}
+// -- ebook download --//
+.download-email-address {
+  font-size: vw(44px);
+  line-height: vw(70px);
+  // letter-spacing: vw(5.28px);
+  // color: #b1a2fe;
+  // @include fontNunitoBold;
+  @include fontNunitoMedium;
+  text-align: center;
+  padding-top: vw(25px);
+  color: $dark-theme-color-white-42;
+}
+.customModal--ebookDownload {
+  max-width: vw(1000px);
+  // height: vw(600px) !important;
+  height: auto !important;
+}
+.modal-close-btn-div {
+  padding-top: vw(41px);
+}
+//-- get --//
+.customModal--get {
+  max-width: vw(1400px) !important;
+  height: auto;
+  padding-bottom: vw(100px);
+  //background-image: url("../../img/desktop/modal/get-back.svg") !important;
+  // background-image: url("../../img/desktop/new/new-bg.svg") !important;
+}
