@@ -112,7 +112,8 @@ export default function LandingPageNewHomeFoldOne() {
             The best<span> B2b Sales</span> Tool{" "}
           </p>
           <p className="pt-15 new-home-fold-one-left-text-2 ">
-            For Tech Consultancy &amp; Services Companies.
+            {/* For Tech Consultancy &amp; Services Companies. */}
+            For Tech Founders.
           </p>
           <div className="row mx-0 pt-40">
             <a

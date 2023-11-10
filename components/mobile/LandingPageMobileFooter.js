@@ -35,7 +35,7 @@ export default function LandingPageMobileFooter() {
       </div>
 
       <h2 className="mobile-dominate-text">
-        &#169; Dominate.ai | All rights reserved 2021
+        &#169; Dominate.ai | All rights reserved 2024
       </h2>
       <h2 className="footer-switch-text" onClick={renderDesktopSite}>
         Switch to desktop website
