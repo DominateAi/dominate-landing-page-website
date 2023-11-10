@@ -314,7 +314,7 @@ const LandingPageFooter = () => {
         </div> */}
         <span className="footer-copy-text">
           <i className="footer-copy-text__symbol">&#169;</i> Copyrighted all
-          rights reserved 2021
+          rights reserved 2024
         </span>
       </div>
       <div className="row justify-content-center align-items-center footer--end-div">

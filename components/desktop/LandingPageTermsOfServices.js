@@ -13,7 +13,7 @@ const LandingPageTermsOfServices = () => {
     return (
       <div className="terms-para-section terms-white-text">
         <p className="terms-para-text">
-          These Terms of Use are effective as of December 22, 2021.
+          These Terms of Use are effective as of December 22, 2024.
           <br />
           <br />
           These Terms of Service (“Terms”) govern your use of the free and paid
