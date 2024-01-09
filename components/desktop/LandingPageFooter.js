@@ -317,7 +317,7 @@ const LandingPageFooter = () => {
           rights reserved 2024
         </span>
       </div>
-      <div className="row justify-content-center align-items-center footer--end-div">
+      {/* <div className="row justify-content-center align-items-center footer--end-div">
         <h5 className="devlop-text font-dark-blue">
           <img
             // src={"/img/desktop/new/new-dev-img.svg"}
@@ -334,7 +334,7 @@ const LandingPageFooter = () => {
         <h5 className="devlop-text font-link">
           <a href="mailto:akhil.sharma@myrl.tech">Akhil.sharma@myrl.tech</a>
         </h5>
-      </div>
+      </div> */}
     </footer>
   );
 };
