@@ -679,6 +679,7 @@ export default function BlogMain({ blogs }) {
         {/* <Link as={`/blog-details`} href="/blog-details"> */}
         <a>
           <div
+           style={{ cursor: "pointer" }}
             onClick={() => navigateHandler(blogData[0])}
             className="hover:cursor-pointer new-blog-row1-img-block"
           >
@@ -708,6 +709,7 @@ export default function BlogMain({ blogs }) {
           {/* <Link as={`/blog-details`} href="/blog-details"> */}
           <a>
             <h4
+             style={{ cursor: "pointer" }}
               onClick={() => navigateHandler(blogData[0])}
               className="hover:cursor-pointer new-blog-row1-title pt-10"
             >
@@ -773,6 +775,7 @@ export default function BlogMain({ blogs }) {
               {/* <Link as={`/blog-details`} href="/blog-details"> */}
               <a>
                 <div
+                 style={{ cursor: "pointer" }}
                   onClick={() => navigateHandler(data)}
                   className="hover:cursor-pointer new-blog-row2-card-img-div"
                 >
@@ -801,6 +804,7 @@ export default function BlogMain({ blogs }) {
               {/* <Link as={`/blog-details`} href="/blog-details"> */}
               <a>
                 <h4
+                 style={{ cursor: "pointer" }}
                   onClick={() => navigateHandler(data)}
                   className="hover:cursor-pointer new-blog-row2-card-title"
                 >

@@ -641,6 +641,7 @@ export default function BlogMobileMain({ blogs }) {
           {/* <Link as={`/blog/${data.slug}`} href="/blog/[id]"> */}
           <a>
             <img
+             style={{ cursor: "pointer" }}
               onClick={() => navigateHandler(data)}
               // src={"/img/mobile/blog/new-blog-one.png"}
               // alt="technology"
@@ -666,6 +667,7 @@ export default function BlogMobileMain({ blogs }) {
           {/* <Link as={`/blog/${data.slug}`} href="/blog/[id]"> */}
           <a>
             <h2
+             style={{ cursor: "pointer" }}
               onClick={() => navigateHandler(data)}
               className="new-blog-title"
             >

@@ -174,11 +174,12 @@ export class LandingPageMobileNavbar extends Component {
               </AccordionItemPanel>
             </AccordionItem>
           </Accordion>
-          <a href={process.env.NEXT_PUBLIC_LOGIN_URL}>
-            <span className="navbar-btn navbar-btn--mobile">
-              Login / Sign Up
-            </span>
-          </a>
+
+          <Link href="/blog">
+            {/* <a href={process.env.NEXT_PUBLIC_LOGIN_URL}> */}
+            <span className="navbar-btn navbar-btn--mobile">Blogs</span>
+            {/* </a> */}
+          </Link>
         </div>
       </div>
     );
