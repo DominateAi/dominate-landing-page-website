@@ -5,7 +5,7 @@ import AuthorNameDetails from "../blog/AuthorNameDetails";
 import isEmpty from "../../../store/validation/is-empty";
 import BlogDetailsFooterSocialMedia from "../../common/BlogDetailsFooterSocialMedia";
 
-export default function BlogDetailMobileMain({ blogDetail }) {
+export default function BlogDetailMobileMain({ blogDetails }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -16,8 +16,8 @@ export default function BlogDetailMobileMain({ blogDetail }) {
         <img
           // src={"/img/mobile/blog/new-blog-one.png"}
           // alt="technology"
-          src={blogDetail.featured_image.url}
-          alt={blogDetail.featured_image.alternativeText}
+          src={!isEmpty(blogDetails) && blogDetails.imgUrl}
+          // alt={blogDetail.featured_image.alternativeText}
           className=" new-blog-img-one"
         />
         <div className="new-blog-main-div__card1-content blog-detail-title-block__colm2">
@@ -27,38 +27,38 @@ export default function BlogDetailMobileMain({ blogDetail }) {
                   <span>Technology</span>
                 </div>
               ))} */}
-            {!isEmpty(blogDetail.tag1) && (
+            {!isEmpty(blogDetails) && !isEmpty(blogDetails.tag1) && (
               <div className="new-blog-technology-div">
-                <span>{blogDetail.tag1}</span>
+                <span>{blogDetails.tag1}</span>
               </div>
             )}
-            {!isEmpty(blogDetail.tag2) && (
+            {!isEmpty(blogDetails) && !isEmpty(blogDetails.tag2) && (
               <div className="new-blog-technology-div">
-                <span>{blogDetail.tag2}</span>
+                <span>{blogDetails.tag2}</span>
               </div>
             )}
           </div>
           <h2 className="new-blog-title">
             {/* Top 10 Most Useful Online Courses That Are Free */}
-            {blogDetail.title}
+            {!isEmpty(blogDetails) && blogDetails.title}
           </h2>
           <AuthorNameDetails
-            img={blogDetail.author_image[0].url}
-            name={blogDetail.author}
-            blogDate={blogDetail.updatedAt}
-            time_to_read={blogDetail.time_to_read}
+            img={!isEmpty(blogDetails) && blogDetails.authorImg}
+            name={!isEmpty(blogDetails) && blogDetails.author}
+            blogDate={!isEmpty(blogDetails) && blogDetails.datePosted}
+            time_to_read={!isEmpty(blogDetails) && blogDetails.time_to_read}
           />
           <div className="new-blog-main-div__card1-content-desc">
             {/* description here */}
             <ReactMarkdown
-              source={blogDetail.article_body}
+              source={!isEmpty(blogDetails) && blogDetails.description}
               escapeHtml={false}
             />
           </div>
         </div>
       </div>
     );
-  };
+  }; 
 
   return (
     <>
@@ -66,7 +66,7 @@ export default function BlogDetailMobileMain({ blogDetail }) {
       <article>
         <div className="new-blog-detail-main-div">
           {renderCard1()}
-          <BlogDetailsFooterSocialMedia blogSlug={blogDetail.slug} />
+          {/* <BlogDetailsFooterSocialMedia blogSlug={blogDetail.slug} /> */}
         </div>
       </article>
     </>
